@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:frontend/widgets/bottom_bar.dart';
 
 class HomePage extends StatelessWidget {
 //   final String title;
@@ -27,7 +28,8 @@ class HomePage extends StatelessWidget {
                     child: const Text('Profile'),
                 ),
             ],
-        ),)
+        ),),
+        bottomNavigationBar: const BottomNavigationBarApp(),
     );
   }
   
